@@ -13,7 +13,7 @@
 
 <body>
   <header>
-    <h1 class="display-3 text-center my-4">Basic Typography</h1>
+    <h1 class="display-3 text-center my-4">Sizing & Borders</h1>
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -85,107 +85,65 @@
   </header>
 
   <div class="container">
-    <!--####################START HERE######################-->
+    <!--##################START HERE####################-->
 
-    <!-- HEADINGS -->
-    <h1>Heading One</h1>
-    <h2>Heading Two</h2>
-    <h3>Heading Three</h3>
-    <h4>Heading Four</h4>
-    <h5 class="h2">Heading Five</h5>
-    <h6>Heading Six</h6>
-
-    <br>
-    <br>
-
-
-    <!-- DISPLAY CLASSES -->
-    <h1 class="display-1">Display 1</h1>
-    <h1 class="display-2">Display 2</h1>
-    <h1 class="display-3">Display 3</h1>
-    <h1 class="display-4">Display 4</h1>
+    <!-- WIDTH CLASSES -->
+    <div class="w-25 bg-success p-3">Width 25%</div>
+    <div class="w-50 bg-success p-3">Width 50%</div>
+    <div class="w-75 bg-success p-3">Width 75%</div>
+    <div class="w-100 bg-success p-3">Width 100%</div>
+    <div class="w-auto bg-success p-3">Width Auto</div>
 
     <br>
     <br>
 
-    <!-- PARAGRAPHS -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero
-      numquam
-      voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis
-      sapiente.</p>
-
-    <!-- LEAD -->
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam
-      consequatur vero
-      numquam
-      voluptatem quam ab expedita eum, ipsam? Necessitatibus dicta quaerat, vitae dolorum, dolor autem reiciendis
-      sapiente.</p>
-
-    <!-- MONOSPACE PARAGRAPH -->
-    <p class="text-monospace">My monospace paragraph</p>
-
-    <!-- STYLE CLASSES -->
-    <p class="font-weight-bold">Bold Text</p>
-    <p class="font-weight-normal">Normal Text</p>
-    <p class="font-italic">Italic Text</p>
-
-    <!-- TEXT TRANSFORMS -->
-    <p class="text-lowercase">MAKE LOWERCASE</p>
-    <p class="text-uppercase">make uppercase</p>
-    <p class="text-capitalize">make capitalized</p>
-
-    <br>
-    <br>
-
-    <!-- BLOCKQUOTES -->
-    <blockquote class="blockquote">
-      <p>This is a blockquote</p>
-    </blockquote>
-
-    <!-- BLOCKQUOTE RIGHT ALIGNED -->
-    <blockquote class="blockquote text-right">
-      <p>This is a blockquote aligned right</p>
-    </blockquote>
-
-    <!-- BLOCKQUOTE WITH FOOTER -->
-    <blockquote class="blockquote text-right">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">Someone famous in
-        <cite title="Source Title">Source Title</cite>
-      </footer>
-    </blockquote>
-
-    <br>
-    <br>
-
-    <!-- TEXT TRUNCATE -->
-    <div class="text-truncate">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat nobis sunt qui consequatur architecto
-      veritatis,
-      iure odit, debitis pariatur perspiciatis? Asperiores facere veniam, totam ullam dignissimos voluptate atque! Eos,
-      animi
-      quos. Sint magni nulla provident et consequatur officia tempora!
+    <!-- HEIGHT CLASSES -->
+    <div style="height: 300px; border: 1px solid red">
+      <div class="h-25 bg-primary d-inline-block">Height 25%</div>
+      <div class="h-50 bg-primary d-inline-block">Height 50%</div>
+      <div class="h-75 bg-primary d-inline-block">Height 75%</div>
+      <div class="h-100 bg-primary d-inline-block">Height 100%</div>
+      <div class="h-auto bg-primary d-inline-block">Height Auto</div>
     </div>
 
     <br>
     <br>
 
-    <!-- LISTS -->
-    <ul class="list-unstyled">
-      <li>Lorem ipsum dolor sit amet.</li>
-      <li>Lorem ipsum dolor sit amet.</li>
-      <li>Lorem ipsum dolor sit amet.</li>
-      <li>Lorem ipsum dolor sit amet.</li>
-    </ul>
+    <!-- BORDERS -->
+    <div class="border p-3 mb-2 bg-light">Regular</div>
+    <div class="border-top p-3 mb-2 bg-light">Border Top</div>
+    <div class="border-bottom p-3 mb-2 bg-light">Border Bottom</div>
+    <div class="border-right p-3 mb-2 bg-light">Border Right</div>
+    <div class="border-left p-3 mb-2 bg-light">Border Left</div>
 
-    <!-- INLINE LIST -->
-    <ul class="list-inline">
-      <li class="list-inline-item">Lorem ipsum</li>
-      <li class="list-inline-item">Lorem ipsum </li>
-      <li class="list-inline-item">Lorem ipsum </li>
-    </ul>
+    <br>
+    <br>
+
+    <!-- BORDER COLORS -->
+    <div class="p-3 mb-2 bg-light border border-primary">Primary</div>
+    <div class="p-3 mb-2 bg-light border border-secondary">Secondary</div>
+    <div class="p-3 mb-2 bg-light border border-success">Success</div>
+    <div class="p-3 mb-2 bg-light border border-info">Info</div>
+    <div class="p-3 mb-2 bg-light border border-warning">Warning</div>
+    <div class="p-3 mb-2 bg-light border border-danger">Danger</div>
+    <div class="p-3 mb-2 bg-light border border-light">Light</div>
+    <div class="p-3 mb-2 bg-light border border-dark">Dark</div>
+    <div class="p-3 mb-2 bg-light border border-white">White</div>
+
+    <br>
+    <br>
+
+    <!-- BORDER RADIUS -->
+    <div class="p-3 mb-2 bg-light border border-success rounded">Rounded</div>
+    <div class="p-3 mb-2 bg-light border border-success rounded-top">Rounded Top</div>
+    <div class="p-3 mb-2 bg-light border border-success rounded-bottom">Rounded Bottom</div>
+    <div class="p-3 mb-2 bg-light border border-success rounded-right">Rounded Right</div>
+    <div class="p-3 mb-2 bg-light border border-success rounded-left">Rounded Left</div>
+    <div class="p-3 mb-2 bg-light border border-success rounded-circle w-25">Rounded Circle</div>
+    <div class="p-3 mb-2 bg-light border border-success rounded-0">Dark</div>
+
   </div>
-
+  <!-- ./container -->
   <div style="margin-top:500px;"></div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
